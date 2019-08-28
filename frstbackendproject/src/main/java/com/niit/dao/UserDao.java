@@ -10,7 +10,7 @@ public interface UserDao
 	   public boolean deleteUser(User User);
 	   public boolean updateUser(User User);
 	   public List<User> listUsers();
-	   public User getUser(int UserID);
+	   public User getUser(String username);
 
 
 }
